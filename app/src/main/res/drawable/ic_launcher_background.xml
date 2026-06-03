@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background Gradient: Dusk twilight -->
+    <path
+        android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:type="linear">
+                <item android:color="#2196F3" android:offset="0.0"/> <!-- Sky blue -->
+                <item android:color="#E1F5FE" android:offset="1.0"/> <!-- Cyan ice -->
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Retro Cloud 1 -->
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M15,20h12v4h-12zM27,16h20v8h-20zM47,20h8v4h-8z" />
+
+    <!-- Retro Cloud 2 -->
+    <path
+        android:fillColor="#60FFFFFF"
+        android:pathData="M60,65h10v3h-10zM70,61h15v7h-15zM85,65h6v3h-6z" />
+
+    <!-- Sun rays or accent circles -->
+    <path
+        android:fillColor="#20FFFFFF"
+        android:pathData="M108,0 m-35,0 a35,35 0 1,1 70,0 a35,35 0 1,1 -70,0" />
+    <path
+        android:fillColor="#15FFFFFF"
+        android:pathData="M108,0 m-50,0 a50,50 0 1,1 100,0 a50,50 0 1,1 -100,0" />
+
+</vector>

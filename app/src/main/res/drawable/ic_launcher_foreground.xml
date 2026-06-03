@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Shadow beneath the bird body -->
+    <path
+        android:fillColor="#15000000"
+        android:pathData="M 52,60 m -24,0 a 24,14 0 1,1 48,0 a 24,14 0 1,1 -48,0" />
+
+    <!-- Cute Chubby Bird Body -->
+    <path
+        android:fillColor="#FFD54F"
+        android:strokeColor="#FF8F00"
+        android:strokeWidth="3.0"
+        android:pathData="M 48,54 m -24,0 a 24,24 0 1,1 48,0 a 24,24 0 1,1 -48,0" />
+
+    <!-- Rosy Cheek -->
+    <path
+        android:fillColor="#FFFF8D11"
+        android:pathData="M 52,60 m -4,0 a 4,4 0 1,1 8,0 a 4,4 0 1,1 -8,0" />
+
+    <!-- Big Flapping Wing -->
+    <path
+        android:fillColor="#FFE082"
+        android:strokeColor="#FF8F00"
+        android:strokeWidth="2.5"
+        android:pathData="M 36,54 m -10,0 a 10,8 0 1,1 20,0 a 10,8 0 1,1 -20,0" />
+
+    <!-- Beak -->
+    <path
+        android:fillColor="#FF7043"
+        android:strokeColor="#D84315"
+        android:strokeWidth="2.5"
+        android:pathData="M 70,50 L 86,56 L 70,62 Z" />
+
+    <!-- Big White Eye -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#5D4037"
+        android:strokeWidth="2.5"
+        android:pathData="M 58,44 m -8,0 a 8,8 0 1,1 16,0 a 8,8 0 1,1 -16,0" />
+
+    <!-- Black Pupil -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M 60,44 m -4,0 a 4,4 0 1,1 8,0 a 4,4 0 1,1 -8,0" />
+
+    <!-- Eye Glint/Reflection -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 62,42 m -1.5,0 a 1.5,1.5 0 1,1 3,0 a 1.5,1.5 0 1,1 -3,0" />
+
+</vector>

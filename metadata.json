@@ -1,0 +1,6 @@
+{
+  "name": "Flappy Bird",
+  "description": "An elegant, highly playable retro Flappy Bird game featuring smooth interactive physics, local high-score tracking with Room Database, and beautiful modern Material 3 aesthetics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
